@@ -9,3 +9,4 @@ body{
 h1{
     background-color: white;
 }
+@import url(../Styles/header.css);
