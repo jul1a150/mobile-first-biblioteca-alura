@@ -24,8 +24,10 @@ h1{
         display: block;
         font-size: 30px;
     }
- 
-    .lista_menu{
-display: none;
 }
+    .lista_menu{
+     display: none 
+}
+.div_menu:checked~.lista_menu{
+    display: block;
 }
