@@ -28,6 +28,6 @@ h1{
     .lista_menu{
      display: none 
 }
-.div_menu:checked~.lista_menu{
+.div_menu:checked~lista_menu{
     display: block;
 }
