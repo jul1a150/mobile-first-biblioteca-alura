@@ -24,7 +24,8 @@ h1{
         display: block;
         font-size: 30px;
     }
-  .lista_menu{
+ 
+    .lista_menu{
 display: none;
 }
 }
