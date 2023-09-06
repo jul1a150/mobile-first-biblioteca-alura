@@ -31,3 +31,8 @@ h1{
 .div_menu:checked~lista_menu{
     display: block;
 }
+.lista_menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+}
