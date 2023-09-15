@@ -19,6 +19,33 @@
 h1{
     display: none;
 }
+
+.lista-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+
+.lista-menu-titulo,
+.lista-menu-item {
+    padding: 1em;
+    background-color: var(--branco);
+
+}
+
+.lista-menu-titulo {
+    color: var(--amarelo);
+    font-weight: 700;
+
+}
+
+.lista-menu-link{
+background: var(--roxo);
+background-clip: text;
+text-transform: uppercase;
+
+}
+
 @media screen and (min-width:1024px) {
     h1{
         display: block;
@@ -28,7 +55,7 @@ h1{
     .lista_menu{
      display: none 
 }
-.div_menu:checked~lista_menu{
+.div_menu:checked~.lista_menu{
     display: block;
 }
 .lista_menu{
