@@ -4,10 +4,14 @@
     --branco:#FFFFFF;
     --amarelo: #fccb2c;
     --roxo :#733887;
+    --fone-principal:"Poppins";
  }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fone-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1{
