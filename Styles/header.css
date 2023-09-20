@@ -29,14 +29,14 @@ h1{
     top: 100%;
 }
 
-.lista-menu-titulo,
+.lista-menu-título,
 .lista-menu-item {
     padding: 1em;
     background-color: var(--branco);
 
 }
 
-.lista-menu-titulo {
+.lista-menu-título {
     color: var(--amarelo);
     font-weight: 700;
 
